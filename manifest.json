@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Gimme an alt!",
+  "version": "0.1.0",
+  "description": "Highlights all of the images on a webpage that are lacking an alt tag",
+  "content_scripts": [
+    {
+      "css": [
+        "colorless.css"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ]
+}
