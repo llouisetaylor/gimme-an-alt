@@ -5,8 +5,8 @@
   "description": "Highlights all of the images on a webpage that are lacking an alt tag",
   "content_scripts": [
     {
-      "css": [
-        "colorless.css"
+      "js": [
+        "script.js"
       ],
       "matches": [
         "<all_urls>"

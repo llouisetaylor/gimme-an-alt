@@ -1,3 +1,0 @@
-img:not([alt]) {
-  filter: grayscale(100%) !important;
-}
